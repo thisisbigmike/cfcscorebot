@@ -1,7 +1,4 @@
-# === Crypto Fight Club Ultimate Bot (Separate Image Variables Version) ===
-# This version assigns a unique image URL variable to each message type:
-# /start, /votes, and the automatic updates, for full customization.
-
+# /start, /votes, and the automatic updates,
 import asyncio
 import time
 import subprocess
@@ -10,16 +7,15 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, PicklePersistence
 import requests
 
-# --- 1. CONFIGURATION ---
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8243897329:AAF8u9bfRXbnm3ycWXFRQk-bwpBOjS8xFuQ") # PASTE YOUR BOT TOKEN HERE
-API_URL = "https://fight.cryptofightclub.wtf/api/votes"
-FIGHTER_NAMES = {'1': '$EZETH', '2': '$WGA'}
 
-# --- NEW: SEPARATE IMAGE URLS FOR EACH MESSAGE TYPE ---
-# Paste your direct image links here. They must be valid and direct (e.g., from i.imgur.com )
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8243897329:AAF8u9bfRXbnm3ycWXFRQk-bwpBOjS8xFuQ")
+API_URL = "https://fight.cryptofightclub.wtf/api/votes"
+FIGHTER_NAMES = {'1': '$POPDOG', '2': '$LFGO'}
+
+# (from i.imgur.com )
 WELCOME_IMAGE_URL = "https://i.imgur.com/q2ofFCQ.jpeg"  # For the /start command
-VOTES_COMMAND_IMAGE_URL = "https://i.imgur.com/VFj9qFA.jpeg" # For the on-demand /votes command
-AUTO_UPDATE_IMAGE_URL = "https://i.imgur.com/VFj9qFA.jpeg" # For the repeating messages
+VOTES_COMMAND_IMAGE_URL = "https://imgur.com/a/RrdlTuO.jpeg" # For the on-demand /votes command
+AUTO_UPDATE_IMAGE_URL = "https://imgur.com/a/RrdlTuO.jpeg" # For the repeating messages
 
 AUTO_UPDATE_INTERVAL = 120
 RUN_DURATION_HOURS = 48
