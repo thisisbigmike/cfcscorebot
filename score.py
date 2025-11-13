@@ -14,8 +14,8 @@ FIGHTER_NAMES = {'1': '$POPDOG', '2': '$LFGO'}
 
 # (from i.imgur.com )
 WELCOME_IMAGE_URL = "https://i.imgur.com/q2ofFCQ.jpeg"  # For the /start command
-VOTES_COMMAND_IMAGE_URL = "https://imgur.com/a/RrdlTuO.jpeg" # For the on-demand /votes command
-AUTO_UPDATE_IMAGE_URL = "https://imgur.com/a/RrdlTuO.jpeg" # For the repeating messages
+VOTES_COMMAND_IMAGE_URL = "https://i.imgur.com/281bIod.jpeg" # For the on-demand /votes command
+AUTO_UPDATE_IMAGE_URL = "https://i.imgur.com/281bIod.jpeg" # For the repeating messages
 
 AUTO_UPDATE_INTERVAL = 120
 RUN_DURATION_HOURS = 48
