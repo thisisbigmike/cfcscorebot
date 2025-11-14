@@ -17,7 +17,7 @@ WELCOME_IMAGE_URL = "https://i.imgur.com/q2ofFCQ.jpeg"  # For the /start command
 VOTES_COMMAND_IMAGE_URL = "https://i.imgur.com/281bIod.jpeg" # For the on-demand /votes command
 AUTO_UPDATE_IMAGE_URL = "https://i.imgur.com/281bIod.jpeg" # For the repeating messages
 
-AUTO_UPDATE_INTERVAL = 120
+AUTO_UPDATE_INTERVAL = 900
 RUN_DURATION_HOURS = 48
 
 # --- 2. CORE LOGIC & HELPERS ---
